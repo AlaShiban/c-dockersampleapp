@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-gcc
 RUN apk --no-cache add curl  
-ADD . /src
+COPY . /src
 WORKDIR /src
 RUN gcc hello.c -o runme
 RUN chmod 755 runme
