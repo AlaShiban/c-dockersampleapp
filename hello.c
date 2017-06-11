@@ -35,6 +35,6 @@ int main()
         fprintf(pFile, "Fib: %s --> Hash: %08x\n", str, hash);
     }
     fclose(pFile);
-    printf("\nCompleted!");
+    printf("\nCompleted!\n");
     return 0;
 }
