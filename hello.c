@@ -9,7 +9,7 @@ int main()
     unsigned long n, first = 0, second = 1, next, c;
     uint32_t hash;      /* Output for the hash */
     uint32_t seed = 42; /* Seed value for hash */
-    
+
     FILE *pFile;
     pFile = fopen("output.txt", "a");
     n = 50;
@@ -33,8 +33,7 @@ int main()
 
         printf("Fib: %s --> Hash: %08x\n", str, hash);
         fprintf(pFile, "Fib: %s --> Hash: %08x\n", str, hash);
-        fclose(pFile);
     }
-
+    fclose(pFile);
     return 0;
 }
