@@ -12,7 +12,7 @@ int main()
 
     FILE *pFile;
     pFile = fopen("output.txt", "a");
-    n = 50;
+    n = 10;
 
     printf("First %ld terms of Fibonacci series are :-\n", n);
     char str[2048];
@@ -35,5 +35,6 @@ int main()
         fprintf(pFile, "Fib: %s --> Hash: %08x\n", str, hash);
     }
     fclose(pFile);
+    printf("\nCompleted!");
     return 0;
 }
