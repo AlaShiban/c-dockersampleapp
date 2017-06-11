@@ -1,1 +1,6 @@
 .idea/*
+murmur3/example
+murmur3/example.o
+murmur3/murmur3.o
+murmur3/test.o
+murmur3/tests
